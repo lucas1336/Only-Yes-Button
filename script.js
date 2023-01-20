@@ -1,9 +1,14 @@
 const evilButton = document.getElementById('no')
+const yesButton = document.getElementById('yes')
 const OFFSET = 70
 
 evilButton.addEventListener('click', () => {
   alert('Error 404 (☞ﾟヮﾟ)☞, no funciona el boton')
   window.close()
+})
+
+yesButton.addEventListener('click', () => {
+    alert('Gracias por hacer click en el boton correcto')
 })
 
 document.addEventListener('mousemove', (e) => {
